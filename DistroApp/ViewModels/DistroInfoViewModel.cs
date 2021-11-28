@@ -1,26 +1,23 @@
-﻿namespace DistroApp
+﻿/*
+Autor: David Hülsberg
+Datum: 28.11.2021
+*/
+namespace DistroApp
 {
     public class DistroInfoViewModel
     {
-        static int basedDistID = 0;
-        static string basedDistName = null;
-        static string basedDistInfo = null;
+
+        //Deklariert Getter und Setter, damit in "DistroInfoView" ein Binding erstellt werden kann. 
         public int AnzeigeDistroID { get; set; }
         public string AnzeigeDistroName { get; set; }
         public string AnzeigeDistroInfo { get; set; }
 
         public DistroInfoViewModel()
         {
-            AnzeigeDistroID = basedDistID;
-            AnzeigeDistroName = basedDistName;
-            AnzeigeDistroInfo = basedDistInfo;
-        }
-
-        internal static void setDistroInfo(int basedDistroID, string basedDistroName, string basedDistroInfo)
-        {
-            basedDistID = basedDistroID;
-            basedDistName = basedDistroName;
-            basedDistInfo = basedDistroInfo;
+            //Holt die Werte aus "Statisch2" und weist diese zu.
+            AnzeigeDistroID = Statisch2.BasedDistroID;
+            AnzeigeDistroName = Statisch2.BasedDistroName;
+            AnzeigeDistroInfo = Statisch2.BasedDistroInfo;
         }
     }
 }

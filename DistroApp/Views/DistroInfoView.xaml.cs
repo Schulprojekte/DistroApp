@@ -1,9 +1,7 @@
-﻿using System;
-using System.Collections.Generic;
-using System.Linq;
-using System.Text;
-using System.Threading.Tasks;
-
+﻿/*
+Autor: David Hülsberg
+Datum: 28.11.2021
+*/
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
@@ -14,7 +12,6 @@ namespace DistroApp
     {
         public DistroInfoView()
         {
-            DistroInfoViewModel.setDistroInfo(Statisch2.BasedDistroID, Statisch2.BasedDistroName, Statisch2.BasedDistroInfo);
             InitializeComponent();
         }
     }
