@@ -1,6 +1,4 @@
-﻿using System;
-using Xamarin.Forms;
-using Xamarin.Forms.Xaml;
+﻿using Xamarin.Forms;
 
 namespace DistroApp
 {
@@ -10,6 +8,7 @@ namespace DistroApp
         {
             InitializeComponent();
 
+            //Öffnet die Seite "BasedDistroView".
             MainPage = new BaseDistroView();
         }
 
