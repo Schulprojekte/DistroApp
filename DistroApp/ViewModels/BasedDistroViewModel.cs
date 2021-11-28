@@ -1,4 +1,8 @@
-﻿using System.Collections.ObjectModel;
+﻿/*
+Autor: David Hülsberg
+Datum: 28.11.2021
+*/
+using System.Collections.ObjectModel;
 
 namespace DistroApp
 {

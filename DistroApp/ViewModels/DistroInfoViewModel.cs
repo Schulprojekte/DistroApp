@@ -1,4 +1,8 @@
-﻿namespace DistroApp
+﻿/*
+Autor: David Hülsberg
+Datum: 28.11.2021
+*/
+namespace DistroApp
 {
     public class DistroInfoViewModel
     {

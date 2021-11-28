@@ -1,4 +1,8 @@
-﻿using Xamarin.Forms;
+﻿/*
+Autor: David Hülsberg
+Datum: 28.11.2021
+*/
+using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
 
 namespace DistroApp
