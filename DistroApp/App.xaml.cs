@@ -10,7 +10,7 @@ namespace DistroApp
         {
             InitializeComponent();
 
-            MainPage = new MainPage();
+            MainPage = new BaseDistroView();
         }
 
         protected override void OnStart()

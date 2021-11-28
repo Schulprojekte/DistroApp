@@ -1,0 +1,28 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:local="clr-namespace:DistroApp"
+             x:Class="DistroApp.BaseDistroView">
+
+    <ContentPage.BindingContext>
+        <local:BaseDistroViewModel></local:BaseDistroViewModel>
+    </ContentPage.BindingContext>
+
+    <StackLayout BackgroundColor="#282828">
+        <Frame BackgroundColor="#121212" Padding="24" CornerRadius="0">
+            <Label Text="Linux Distribution-List" TextColor="White" HorizontalTextAlignment="Center" FontSize="36"/>
+        </Frame>
+        <Label  Text="Choose a base distro:" TextColor="White" FontSize="Medium" Padding="30,10,30,10"/>
+        <ListView x:Name="listView1"
+                  BackgroundColor="Transparent"
+                  ItemsSource="{Binding BaseDistroList}"
+                  ItemTapped="ListView1_ItemTapped">
+            <ListView.ItemTemplate>
+                <DataTemplate>
+                    <TextCell Text="{Binding BaseDistroName}"></TextCell>
+                </DataTemplate>
+            </ListView.ItemTemplate>
+        </ListView>
+    </StackLayout>
+
+</ContentPage>
