@@ -17,13 +17,30 @@ namespace DistroApp
             BasedDistroList = new ObservableCollection<BasedDistros>();
 
             //Befüllt die Liste "BasedDistroList" basierend auf der Auswahl des Users.
-            if (Statisch1.BaseDistroID == 1)
+            switch (Statisch1.BaseDistroID)
             {
-                BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "EndavourOS", BasedDistroInfo = "EndavourOS info" });
-            }
-            else if (Statisch1.BaseDistroID == 2)
-            {
-                BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "Ubuntu", BasedDistroInfo = "Ubuntu info" });
+                case 1:
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "EndavourOS", BasedDistroInfo = "EndavourOS info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "BlackArch", BasedDistroInfo = "BlackArch info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "Manjaro", BasedDistroInfo = "Manjaro info" });
+                    break;
+
+                case 2:
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "Ubuntu", BasedDistroInfo = "Ubuntu info" });
+                    break;
+
+                case 3:
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "SUSE", BasedDistroInfo = "SUSE info" });
+                    break;
+
+                case 4:
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 3, BasedDistroName = "Fedora", BasedDistroInfo = "Fedora info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 4, BasedDistroName = "CentOS", BasedDistroInfo = "CentOS info" });
+                    break;
+
+                default:
+
+                    break;
             }
 
         }

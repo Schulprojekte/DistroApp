@@ -19,6 +19,8 @@ namespace DistroApp
             //Befüllt die Liste "BaseDistroList".
             BaseDistroList.Add(new BaseDistros() { BaseDistroID = 1, BaseDistroName = "Arch" });
             BaseDistroList.Add(new BaseDistros() { BaseDistroID = 2, BaseDistroName = "Debian" });
+            BaseDistroList.Add(new BaseDistros() { BaseDistroID = 3, BaseDistroName = "Slackware" });
+            BaseDistroList.Add(new BaseDistros() { BaseDistroID = 4, BaseDistroName = "RedHat" });
         }
     }
 }
