@@ -20,22 +20,22 @@ namespace DistroApp
             switch (Statisch1.BaseDistroID)
             {
                 case 1:
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "EndavourOS", BasedDistroInfo = "EndavourOS info" });
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "BlackArch", BasedDistroInfo = "BlackArch info" });
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "Manjaro", BasedDistroInfo = "Manjaro info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "EndavourOS", BasedDistroInfo = "EndeavourOS wurde als Nachfolger von Antergos gegründet und ist eine auf Arch Linux basierende Linux-Distribution, die in der Offline-Installation mit der Xfce Desktop-Umgebung ausgeliefert wird." });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "BlackArch", BasedDistroInfo = "BlackArch ist eine junge Linux-Distribution, die ihren Schwerpunkt auf Penetration legt. BlackArch ist eine spezialisierte Version von Arch Linux und dessen Derivat. Es wird verwendet, um Systeme zu härten und Sicherheitslücken zu reduzieren." });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 2, BasedDistroName = "Manjaro", BasedDistroInfo = "Manjaro ist eine auf Arch Linux basierende Linux-Distribution, die in Österreich, Frankreich und Deutschland entwickelt wird. Es ist in erster Linie ein freies Betriebssystem für Personal Computer, welches auf Benutzerfreundlichkeit ausgerichtet ist. Wie seine Basis, Arch Linux, nutzt es ein Rolling-Release-Modell." });
                     break;
 
                 case 2:
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "Ubuntu", BasedDistroInfo = "Ubuntu info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "Ubuntu", BasedDistroInfo = "Ubuntu, auch Ubuntu Linux, ist eine Linux-Distribution, die auf Debian basiert. Der Name Ubuntu bedeutet auf Zulu etwa „Menschlichkeit“ und bezeichnet eine afrikanische Philosophie." });
                     break;
 
                 case 3:
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "SUSE", BasedDistroInfo = "SUSE info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 1, BasedDistroName = "SUSE", BasedDistroInfo = "SUSE Linux ist ein von SUSE entwickeltes Computer-Betriebssystem. Es basiert auf dem freien und Open-Source-Linux-Kernel und wird mit System- und Anwendungssoftware aus anderen Open-Source-Projekten vertrieben." });
                     break;
 
                 case 4:
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 3, BasedDistroName = "Fedora", BasedDistroInfo = "Fedora info" });
-                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 4, BasedDistroName = "CentOS", BasedDistroInfo = "CentOS info" });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 3, BasedDistroName = "Fedora", BasedDistroInfo = "Fedora ist eine RPM-basierte Linux-Distribution. Ziel der Entwickler der Distribution ist es, Freie Software zu fördern und ein Betriebssystem für eine möglichst vielfältige Zielgruppe zu gestalten." });
+                    BasedDistroList.Add(new BasedDistros() { BasedDistroID = 4, BasedDistroName = "CentOS", BasedDistroInfo = "CentOS ist eine Linux-Distribution, die auf Red Hat Enterprise Linux des Unternehmens Red Hat aufbaut. Die Distribution wird von einer offenen Gruppe von freiwilligen Entwicklern betreut, gepflegt und weiterentwickelt." });
                     break;
 
                 default:
