@@ -26,8 +26,7 @@ namespace DistroApp
             //Setzt den ausgewählten Menüpunkt in die Variable "tappedItem".
             var tappedItem = e.Item as BasedDistros;
 
-            //Speichert ID, Name und Info des ausgewählten Menüpunktes in "Statisch2".
-            Statisch2.BasedDistroID = tappedItem.BasedDistroID;
+            //Speichert Name und Info des ausgewählten Menüpunktes in "Statisch2".
             Statisch2.BasedDistroName = tappedItem.BasedDistroName;
             Statisch2.BasedDistroInfo = tappedItem.BasedDistroInfo;
 
