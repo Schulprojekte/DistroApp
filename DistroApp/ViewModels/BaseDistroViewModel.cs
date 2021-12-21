@@ -1,6 +1,6 @@
 ﻿/*
-Autor: David Hülsberg
-Datum: 28.11.2021
+Autor: David Hülsberg, Daniel Rubcov
+Datum: 21.12.2021
 */
 using System.Collections.ObjectModel;
 
@@ -19,6 +19,8 @@ namespace DistroApp
             //Befüllt die Liste "BaseDistroList".
             BaseDistroList.Add(new BaseDistros() { BaseDistroID = 1, BaseDistroName = "Arch" });
             BaseDistroList.Add(new BaseDistros() { BaseDistroID = 2, BaseDistroName = "Debian" });
+            BaseDistroList.Add(new BaseDistros() { BaseDistroID = 3, BaseDistroName = "Slackware" });
+            BaseDistroList.Add(new BaseDistros() { BaseDistroID = 4, BaseDistroName = "RedHat" });
         }
     }
 }

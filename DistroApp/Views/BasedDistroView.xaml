@@ -20,7 +20,7 @@
                   ItemTapped="ListView2_ItemTapped">
                 <ListView.ItemTemplate>
                     <DataTemplate>
-                        <TextCell Text="{Binding BasedDistroName}"></TextCell>
+                        <TextCell Text="{Binding BasedDistroName}" TextColor="White"></TextCell>
                     </DataTemplate>
                 </ListView.ItemTemplate>
             </ListView>
