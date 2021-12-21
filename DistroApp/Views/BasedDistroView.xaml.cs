@@ -1,6 +1,6 @@
 ﻿/*
-Autor: David Hülsberg
-Datum: 28.11.2021
+Autor: David Hülsberg, Daniel Rubcov
+Datum: 21.12.2021
 */
 using Xamarin.Forms;
 using Xamarin.Forms.Xaml;
@@ -26,8 +26,7 @@ namespace DistroApp
             //Setzt den ausgewählten Menüpunkt in die Variable "tappedItem".
             var tappedItem = e.Item as BasedDistros;
 
-            //Speichert ID, Name und Info des ausgewählten Menüpunktes in "Statisch2".
-            Statisch2.BasedDistroID = tappedItem.BasedDistroID;
+            //Speichert Name und Info des ausgewählten Menüpunktes in "Statisch2".
             Statisch2.BasedDistroName = tappedItem.BasedDistroName;
             Statisch2.BasedDistroInfo = tappedItem.BasedDistroInfo;
 
